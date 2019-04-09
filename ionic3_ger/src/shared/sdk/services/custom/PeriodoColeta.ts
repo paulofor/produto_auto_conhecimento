@@ -16,6 +16,7 @@ import { PERIODOCOLETA } from '../../../../dados/periodoColeta';
 //import { of } from 'rxjs';
 //Versao Ionic
 import { of } from 'rxjs/observable/of';
+import {PERIODOCOLETA_CONFIGURACAOPERIODOPAGE} from  '../../../../dados/periodoColeta';
 /**
  * Api services for the `Aplicacao` model.
  */
@@ -96,5 +97,8 @@ export class PeriodoColetaApi extends BaseLoopBackApi {
     return of(PERIODOCOLETA[filter.where.id]);
   }
 
+	getConfiguracaoPeriodoPageLoad(filter: LoopBackFilter = {}) : Observable<PeriodoColeta> {
+		return of (PERIODOCOLETA_CONFIGURACAOPERIODOPAGE);
+	}
   
 }
