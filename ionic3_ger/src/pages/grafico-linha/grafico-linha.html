@@ -11,6 +11,14 @@
       <p>Abril - 2019</p>
     </ion-card>
 
-
+    <ion-card>
+      <canvas id="cv01" baseChart height="250" 
+      [datasets]="lineChartData" 
+      [labels]="lineChartLabels" 
+      [options]="lineChartOptions" 
+      [legend]="lineChartLegend"
+      [chartType]="lineChartType" ></canvas>
+      <img id="img1" height="250"  />
+    </ion-card> 
     
 </ion-content>

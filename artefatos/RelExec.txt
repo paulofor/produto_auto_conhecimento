@@ -1,3 +1,11 @@
+
+(11-04-2019)
+
+grafico de linha
+
+
+
+
 (09-04-2019)
 
 Fazendo um grafico de linha. 
